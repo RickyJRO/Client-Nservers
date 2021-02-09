@@ -1,0 +1,67 @@
+Output Server/No principal-
+C:\Users\ricar\.jdks\openjdk-15\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=51755:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\ricar\Desktop\Sistemas Paralelos\SDPLAB02\out\production\SDPLAB02" Server
+Servidor Iniciado
+Olá, sou o nó 0
+Novo Nó - [127.0.0.1@ 4243:51761]
+Novo Nó - [127.0.0.1@ 4244:51767]
+Novo Cliente - [127.0.0.1@ 4242:51774]
+Chave registada - SDP Sistmas Distribuidos e Paralelos
+Chave registada - Universidade Autónoma de Lisboa
+Chave: Universidade  Valor: Autónoma de Lisboa
+Chave: SDP  Valor: Sistmas Distribuidos e Paralelos
+Conexão Terminada - [127.0.0.1@127.0.0.1 4242:51774]
+
+Output No1 -
+C:\Users\ricar\.jdks\openjdk-15\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=51760:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\ricar\Desktop\Sistemas Paralelos\SDPLAB02\out\production\SDPLAB02" NoParticipante
+Olá, eu sou o nó 1
+No conectado ao servidor
+Chave registada - UAL UAL
+Chave registada - POO Programação Orientada a Objetos
+Chave registada - AP Algoritmia e Programação
+Chave registada - AED Algoritmos e Estruturas de Dados
+Chave: AED Valor: Algoritmos e Estruturas de Dados
+Chave: POO Valor: Programação Orientada a Objetos
+Chave: AP Valor: Algoritmia e Programação
+
+Output No2-
+C:\Users\ricar\.jdks\openjdk-15\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=51766:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\ricar\Desktop\Sistemas Paralelos\SDPLAB02\out\production\SDPLAB02" NoParticipante
+Olá, eu sou o nó 2
+No conectado ao servidor
+
+Output Cliente -
+C:\Users\ricar\.jdks\openjdk-15\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=51772:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\ricar\Desktop\Sistemas Paralelos\SDPLAB02\out\production\SDPLAB02" Client
+Ligação estabelecida.
+Insira um comando:
+R UAL UAL
+Chave registada com sucesso.
+R SDP Sistmas Distribuidos e Paralelos
+Chave registada com sucesso.
+R POO Programação Orientada a Objetos
+Chave registada com sucesso.
+R AP Algoritmia e Programação
+Chave registada com sucesso.
+C UAL
+UAL
+C
+erro
+R UAL UAL
+Chave existente.
+C AED
+Chave inexistente
+R AED Algoritmos e Estruturas de Dados
+Chave registada com sucesso.
+C AED
+Algoritmos e Estruturas de Dados
+D UAL
+Item removido com sucesso.
+C UAL
+Chave inexistente
+R Universidade Autónoma de Lisboa
+Chave registada com sucesso.
+C UAL
+Chave inexistente
+l
+Q
+A terminar a conexão...
+
+Process finished with exit code 0
